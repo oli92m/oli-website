@@ -1,3 +1,205 @@
-h1 {
-    color: aqua;
+body {
+    background: radial-gradient(circle, hsl(241 100% 25%), hsl(241 100% 8%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400vh;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+#ContactsAndCvContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2.5%;
+    left: 75%;
+    width: 10%;
+}
+
+a {
+    color: hsl(241 100% 100%);
+}
+
+#SocialButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+    left: 83%;
+    width: 10%;
+}
+
+#SocialButtonsContainer button {
+    background-color: hsl(241 100% 100%);
+    padding: 15%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 0 7%;
+}
+
+#SocialButtonsContainer button:hover {
+    transform: scale(1.2);
+}
+
+#NameContainer {
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 25%;
+}
+
+#Name {
+    font-size: 55px;
+    color: hsl(272 100% 100%);
+    font-weight: bold;
+    margin: 0;
+}
+
+#Description {
+    font-size: 30px;
+    color: hsl(272 100% 100%);
+    font-style: italic;
+    margin: 0;
+}
+
+#PhotoId {
+    width: 18%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    border-radius: 10%;
+}
+
+#AboutMyself {
+    font-size: 100%;
+    text-align: center;
+}
+
+#Yapping {
+    position: absolute;
+    text-align: justify;
+    height: 20%;
+    font-size: 190%;
+    color: hsl(272 100% 100%);
+    line-height: 140%;
+    top: 22%;
+    width: 60%;
+}
+
+#YappingParagraph {
+    font-size: 75%;
+}
+
+#TechnologiesAnnouncement {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    height: 5%;
+    font-size: 200%;
+    font-weight: bold;
+    color: hsl(272 100% 100%);
+    line-height: 150%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#TechnologiesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* Create 2 rows */
+    column-gap: 5%;
+    row-gap: 10%;
+    position: absolute;
+    width: 40%;
+    height: 12%;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#TechnologiesContainer button {
+    text-align: center;
+    background-color: hsl(241, 100%, 100%);
+    width: 100%;
+    height: 100%;
+    padding: 10% 10%;
+    border-radius: 3%;
+    border: none;
+    cursor: pointer;
+    font-size: 200%;
+
+}
+
+#TechnologiesContainer button:hover{
+    transform: scale(1.10);
+}
+
+#ProfessionnalExperience {
+    text-align: left;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
+    font-weight: bold;
+    color: hsl(241 100% 100%);
+    line-height: 150%;
+    width: 53%;
+}
+
+#ProfExpTitle {
+    text-align: center;
+}
+
+#CRESTTitle {
+    line-height: 0;
+}
+
+#CREST {
+    font-size: 120%;
+    font-weight: normal;
+    line-height: 200%;
+}
+
+.line-1 {
+    height: 2px;
+    background: hsl(241 100% 100%);
+}
+
+#EJCTitle {
+    line-height: 0;
+}
+
+#EjC {
+    font-size: 120%;
+    font-weight: normal;
+    line-height: 200%;
+}
+
+#CRESTLogo {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 19.2%;
+    left: -29%;
+    border-radius: 5%;
+
+}
+
+#EJCLogo {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 68.7%;
+    left: -29%;
+    border-radius: 5%;
 }
